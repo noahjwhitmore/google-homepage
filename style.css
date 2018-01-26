@@ -140,3 +140,14 @@ footer>ul>li>a {
   text-decoration:none;
   padding:0 15px;
 }
+
+
+/* Media Queries */
+
+@media screen and (min-width:1250px) {
+
+  section .input-wrap {
+    width:558px;
+  }
+
+}
