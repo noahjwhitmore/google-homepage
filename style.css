@@ -1,0 +1,46 @@
+body {
+  margin:0;
+  padding:0;
+}
+ul {
+  padding:0;
+  list-style-type:none;
+}
+
+
+/* Header */
+
+header {
+  height: 60px;
+  display:flex;
+  justify-content: space-between;
+}
+header>ul>li {
+  display:inline;
+}
+header>ul:first-of-type {
+
+}
+
+/* Middle Section */
+section {
+  display:flex;
+  flex-direction: column;
+  width:550px;
+  margin:auto;
+}
+
+
+
+/* Footer */
+
+footer {
+  display:flex;
+  justify-content:space-between;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+}
+footer>ul>li {
+  display:inline;
+}
